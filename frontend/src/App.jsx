@@ -1,9 +1,11 @@
+import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 function App() {
 
   return (
-    <div className="bg[#463746] h-screen absolute inset-0">
+    <div>
       <Navbar />
+      <Hero />
     </div>
   )
 }
