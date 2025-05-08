@@ -2,7 +2,7 @@
 const Navbar = () => {
   return (
     <div>
-        <nav className='flex justify-between items-center py-6'>
+        <nav className='sticky top-0 bottom-0 flex justify-between items-center py-3'>
             <div className="flex justify-between items-center text-white ">
                 <div className="text-shadow-indigo-300 text-2xl bg-black px-8 py-2.5 rounded-2xl mx-3">Probability</div>
                 <ul className="flex items-center space-x-4">
